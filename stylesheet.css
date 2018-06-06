@@ -1,0 +1,128 @@
+/*Common setting*/
+
+html {
+  font-size: 15px; /* 1rem === 15px */
+  line-height: 1.6; /* 24px/15px = 1.6 */
+}
+
+*{
+  font-family: 'Open Sans', sans-serif;
+  color: #181818;
+}
+
+ul, ol{
+  list-style: none;
+  padding: 0;
+}
+
+
+
+
+/*header*/
+
+.header{
+  height: 500px;
+  background-image: linear-gradient(to bottom, transparent 0%, #fff 100%), url("image/bg_image.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.brand{
+  margin: 0;
+  font-family: 'Kopub Batang', serif;
+  font-size: 1.33333333rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.brand a{
+  font-family: inherit;
+}
+
+.navbar .navbar-nav .nav-item .nav-link,
+.navbar .navbar-toggler{
+  font-size: 0.9333333rem;
+  font-weight: 700;
+  line-height: 1.43;
+  letter-spacing: 0.21em;
+  color: #181818;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link{
+  color: orange;
+}
+
+.navbar.navbar-light .navbar-toggler{
+  border: none;
+}
+
+.header{
+  height: 500px;
+  background-image: linear-gradient(to bottom, transparent 0%, #fff 100%), url("assets/bg-header.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/*Main*/
+
+.main{
+  margin-bottom:150px;
+}
+
+.post__title {
+  font-family: 'Kopub Batang', serif;
+  font-size: 3.2rem;
+  line-height: 1.25;
+}
+
+.post__text {
+  line-height: 1.6;
+}
+
+.post__date {
+  font-family: 'Kopub Batang', serif;
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 2;
+  color: #8d8d8d;
+}
+
+.post__item:nth-child(2n) {
+  text-align: right;
+}
+
+footer{
+  text-align:center;
+  background-color: #eee;
+}
+
+
+
+.author__img{
+  height:100px;
+  width:100px;
+  overflow:hidden;
+  border-radius:50px;
+
+}
+.author__name{
+  font-size: 1.2rem;
+  font-weight:700;
+  line-weight:1.333333;
+}
+
+.copyright{
+  margin-bottom:0;
+  font-size:0.8rem;
+  line-height:2;
+  color:#8d8d8d;
+}
+.btn-subscribe{
+  border-radius:100px;
+  font-size:0.8rem;
+}
+
+
+.author__img img{
+  width:100%;
+  height:auto;
+}
